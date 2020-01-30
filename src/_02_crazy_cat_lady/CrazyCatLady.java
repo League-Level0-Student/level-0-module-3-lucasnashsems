@@ -24,20 +24,4 @@ if (A < 3 && A > 0)	{
 	playVideo("https://www.youtube.com/watch?v=qIDEC2h4dZo");
 	
 }
-		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
-
-		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
-		
-	}
- 
-	static void playVideo(String videoURL) {
-		try {
-			URI uri = new URI(videoURL);
-			java.awt.Desktop.getDesktop().browse(uri);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-}
-
+		// 4. If t
