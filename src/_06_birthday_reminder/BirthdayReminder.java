@@ -28,7 +28,7 @@ if (E.equals("Mom")) {
 if (E.equals("Dad")) {
 	System.out.println("June 20th");
 }
-if (E.equals("Mom")) {
+if (E.equals("Me")) {
 	System.out.println("January 8th");
 }
 else {
